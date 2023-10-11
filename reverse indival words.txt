@@ -1,0 +1,32 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Welcome to Programiz!");
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Welcome to Programiz!");
+function reverse1(str){
+    
+    let  cur="";
+    let revstr="";
+    let words=[];
+    for(let i=0;i<str.length;i++){
+        if(str[i]!=' '){
+            
+            cur=str[i]+cur;
+        }else{
+               
+           
+            revstr+= " "+cur;
+            cur="";
+        }
+    }
+  
+    revstr+= " "+cur;
+    
+ 
+    console.log(revstr);
+}
+const input="my name is jain";
+reverse1(input);
